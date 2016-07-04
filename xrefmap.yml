@@ -1,0 +1,56 @@
+sorted: true
+references:
+- uid: LightInject.WebApi.Cors
+  name: LightInject.WebApi.Cors
+  href: api/LightInject.WebApi.Cors.html#LightInject_WebApi_Cors
+  commentId: N:LightInject.WebApi.Cors
+  fullName: LightInject.WebApi.Cors
+- uid: LightInject.WebApi.Cors.LightInjectPolicyFactory
+  name: LightInjectPolicyFactory
+  href: api/LightInject.WebApi.Cors.LightInjectPolicyFactory.html#LightInject_WebApi_Cors_LightInjectPolicyFactory
+  commentId: T:LightInject.WebApi.Cors.LightInjectPolicyFactory
+  fullName: LightInject.WebApi.Cors.LightInjectPolicyFactory
+- uid: LightInject.WebApi.Cors.LightInjectPolicyFactory.#ctor(LightInject.IServiceContainer)
+  name: LightInjectPolicyFactory(IServiceContainer)
+  href: api/LightInject.WebApi.Cors.LightInjectPolicyFactory.html#LightInject_WebApi_Cors_LightInjectPolicyFactory__ctor_LightInject_IServiceContainer_
+  commentId: M:LightInject.WebApi.Cors.LightInjectPolicyFactory.#ctor(LightInject.IServiceContainer)
+  fullName: LightInject.WebApi.Cors.LightInjectPolicyFactory.LightInjectPolicyFactory(LightInject.IServiceContainer)
+- uid: LightInject.WebApi.Cors.LightInjectPolicyFactory.GetCorsPolicyProvider(System.Net.Http.HttpRequestMessage)
+  name: GetCorsPolicyProvider(HttpRequestMessage)
+  href: api/LightInject.WebApi.Cors.LightInjectPolicyFactory.html#LightInject_WebApi_Cors_LightInjectPolicyFactory_GetCorsPolicyProvider_System_Net_Http_HttpRequestMessage_
+  commentId: M:LightInject.WebApi.Cors.LightInjectPolicyFactory.GetCorsPolicyProvider(System.Net.Http.HttpRequestMessage)
+  fullName: LightInject.WebApi.Cors.LightInjectPolicyFactory.GetCorsPolicyProvider(System.Net.Http.HttpRequestMessage)
+- uid: LightInject.WebApi.Cors.WebApiCorsExtensions
+  name: WebApiCorsExtensions
+  href: api/LightInject.WebApi.Cors.WebApiCorsExtensions.html#LightInject_WebApi_Cors_WebApiCorsExtensions
+  commentId: T:LightInject.WebApi.Cors.WebApiCorsExtensions
+  fullName: LightInject.WebApi.Cors.WebApiCorsExtensions
+- uid: LightInject.WebApi.Cors.WebApiCorsExtensions.EnableCors(LightInject.IServiceContainer,System.Web.Http.HttpConfiguration)
+  name: EnableCors(IServiceContainer, HttpConfiguration)
+  href: api/LightInject.WebApi.Cors.WebApiCorsExtensions.html#LightInject_WebApi_Cors_WebApiCorsExtensions_EnableCors_LightInject_IServiceContainer_System_Web_Http_HttpConfiguration_
+  commentId: M:LightInject.WebApi.Cors.WebApiCorsExtensions.EnableCors(LightInject.IServiceContainer,System.Web.Http.HttpConfiguration)
+  fullName: LightInject.WebApi.Cors.WebApiCorsExtensions.EnableCors(LightInject.IServiceContainer, System.Web.Http.HttpConfiguration)
+- uid: LightInject.WebApi.Cors.WebApiCorsExtensions.EnableCors(System.Web.Http.HttpConfiguration,LightInject.IServiceContainer)
+  name: EnableCors(HttpConfiguration, IServiceContainer)
+  href: api/LightInject.WebApi.Cors.WebApiCorsExtensions.html#LightInject_WebApi_Cors_WebApiCorsExtensions_EnableCors_System_Web_Http_HttpConfiguration_LightInject_IServiceContainer_
+  commentId: M:LightInject.WebApi.Cors.WebApiCorsExtensions.EnableCors(System.Web.Http.HttpConfiguration,LightInject.IServiceContainer)
+  fullName: LightInject.WebApi.Cors.WebApiCorsExtensions.EnableCors(System.Web.Http.HttpConfiguration, LightInject.IServiceContainer)
+- uid: LightInject.WebApi.Cors.WebApiCorsExtensions.RegisterCorsPolicies(LightInject.IServiceRegistry)
+  name: RegisterCorsPolicies(IServiceRegistry)
+  href: api/LightInject.WebApi.Cors.WebApiCorsExtensions.html#LightInject_WebApi_Cors_WebApiCorsExtensions_RegisterCorsPolicies_LightInject_IServiceRegistry_
+  commentId: M:LightInject.WebApi.Cors.WebApiCorsExtensions.RegisterCorsPolicies(LightInject.IServiceRegistry)
+  fullName: LightInject.WebApi.Cors.WebApiCorsExtensions.RegisterCorsPolicies(LightInject.IServiceRegistry)
+- uid: LightInject.WebApi.Cors.WebApiCorsExtensions.RegisterCorsPolicies(LightInject.IServiceRegistry,LightInject.ILifetime,System.Reflection.Assembly[])
+  name: RegisterCorsPolicies(IServiceRegistry, ILifetime, Assembly[])
+  href: api/LightInject.WebApi.Cors.WebApiCorsExtensions.html#LightInject_WebApi_Cors_WebApiCorsExtensions_RegisterCorsPolicies_LightInject_IServiceRegistry_LightInject_ILifetime_System_Reflection_Assembly___
+  commentId: M:LightInject.WebApi.Cors.WebApiCorsExtensions.RegisterCorsPolicies(LightInject.IServiceRegistry,LightInject.ILifetime,System.Reflection.Assembly[])
+  name.vb: RegisterCorsPolicies(IServiceRegistry, ILifetime, Assembly())
+  fullName: LightInject.WebApi.Cors.WebApiCorsExtensions.RegisterCorsPolicies(LightInject.IServiceRegistry, LightInject.ILifetime, System.Reflection.Assembly[])
+  fullName.vb: LightInject.WebApi.Cors.WebApiCorsExtensions.RegisterCorsPolicies(LightInject.IServiceRegistry, LightInject.ILifetime, System.Reflection.Assembly())
+- uid: LightInject.WebApi.Cors.WebApiCorsExtensions.RegisterCorsPolicies(LightInject.IServiceRegistry,System.Reflection.Assembly[])
+  name: RegisterCorsPolicies(IServiceRegistry, Assembly[])
+  href: api/LightInject.WebApi.Cors.WebApiCorsExtensions.html#LightInject_WebApi_Cors_WebApiCorsExtensions_RegisterCorsPolicies_LightInject_IServiceRegistry_System_Reflection_Assembly___
+  commentId: M:LightInject.WebApi.Cors.WebApiCorsExtensions.RegisterCorsPolicies(LightInject.IServiceRegistry,System.Reflection.Assembly[])
+  name.vb: RegisterCorsPolicies(IServiceRegistry, Assembly())
+  fullName: LightInject.WebApi.Cors.WebApiCorsExtensions.RegisterCorsPolicies(LightInject.IServiceRegistry, System.Reflection.Assembly[])
+  fullName.vb: LightInject.WebApi.Cors.WebApiCorsExtensions.RegisterCorsPolicies(LightInject.IServiceRegistry, System.Reflection.Assembly())
