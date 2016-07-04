@@ -12,7 +12,7 @@ namespace LightInject.WebApi.Cors
     public static class WebApiCorsExtensions
     {
         /// <summary>
-        /// Registers all CORS policy types defined in the given assemblies, using the given <see cref="ILifetime"/>
+        /// Registers all CORS policy types defined in the given assemblies, using the given lifetime
         /// </summary>
         /// <param name="serviceRegistry">The registry to register the services with</param>
         /// <param name="lifetime">The lifetime for the policy objects</param>
@@ -32,7 +32,7 @@ namespace LightInject.WebApi.Cors
         }
 
         /// <summary>
-        /// Registers all CORS policy types defined in the given assemblies, using the default <see cref="ILifetime"/>
+        /// Registers all CORS policy types defined in the given assemblies, using the default lifetime
         /// </summary>
         /// <param name="serviceRegistry">Registry to register the policies into</param>
         /// <param name="assemblies">Assemblies to scan for types</param>
@@ -42,7 +42,7 @@ namespace LightInject.WebApi.Cors
         }
 
         /// <summary>
-        /// Registers all CORS policy types defined in the calling <see cref="Assembly"/>, using the default <see cref="ILifetime"/>
+        /// Registers all CORS policy types defined in the calling <see cref="Assembly"/>, using the default lifetime
         /// </summary>
         /// <param name="serviceRegistry">Registry to register the policies into</param>
         public static void RegisterCorsPolicies(this IServiceRegistry serviceRegistry)
@@ -51,7 +51,7 @@ namespace LightInject.WebApi.Cors
         }
 
         /// <summary>
-        /// Enable CORS for the current <see cref="HttpConfiguration"/>, using the given <see cref="IServiceContainer"/>
+        /// Enable CORS for the current <see cref="T:System.Web.Http.HttpConfiguration" />, using the given IServiceContainer
         /// </summary>
         /// <param name="config">The current HttpConfiguration</param>
         /// <param name="container">Service cotnainer with policy types</param>
@@ -61,7 +61,7 @@ namespace LightInject.WebApi.Cors
         }
 
         /// <summary>
-        /// Use the current <see cref="IServiceContainer"/> to enable CORS on the given <see cref="HttpConfiguration"/>
+        /// Use the current IServiceContainer to enable CORS on the given <see cref="T:System.Web.Http.HttpConfiguration" />
         /// </summary>
         /// <param name="container">The current service container with policy types</param>
         /// <param name="config">HttpConfiguration to enable CORS for.</param>
